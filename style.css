@@ -13,6 +13,7 @@
 }
 .navbar {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 0;
@@ -22,9 +23,6 @@
 }
 .navbar > h3 {
     font-size: 24px;
-}
-.navbar > h3, .navbar > div {
-    min-width: 30vw;
 }
 .nav-pages {
     text-align: right;
